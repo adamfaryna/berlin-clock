@@ -18,16 +18,19 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: [
-          'babel'
-        ]
+        loaders: 'babel',
+        query: {
+          presets: ['airbnb']
+        }
       }
     ]
   },
   plugins: [],
   debug: true,
-  devtool: 'source-map',
+  devtool: 'inline-source-map',
   externals: {
+    'cheerio': 'window',
+    'react/addons': true,
     'react/lib/ExecutionEnvironment': true,
     'react/lib/ReactContext': true
   }

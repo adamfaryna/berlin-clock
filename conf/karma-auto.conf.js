@@ -1,5 +1,3 @@
-const conf = require('./gulp.conf');
-
 module.exports = function (config) {
   const configuration = {
     basePath: '../',
@@ -17,12 +15,10 @@ module.exports = function (config) {
     ],
     files: [
       'node_modules/es6-shim/es6-shim.js',
-      conf.path.src('index.spec.js')
+      {pattern: 'test/**/*.spec.js', watched: false}
     ],
     preprocessors: {
-      [conf.path.src('index.spec.js')]: [
-        'webpack'
-      ]
+      'test/**/*.spec.js': ['webpack']
     },
     reporters: ['progress', 'coverage'],
     coverageReporter: {
