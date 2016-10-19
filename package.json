@@ -23,6 +23,7 @@
     "css-loader": "^0.23.1",
     "del": "^2.0.2",
     "enzyme": "^2.5.1",
+    "enzyme-matchers": "^2.0.0",
     "es6-shim": "^0.35.0",
     "eslint": "^3.2.2",
     "eslint-config-xo-react": "^0.7.0",
