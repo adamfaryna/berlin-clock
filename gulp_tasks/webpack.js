@@ -7,6 +7,7 @@ const webpackDistConf = require('../conf/webpack-dist.conf');
 const gulpConf = require('../conf/gulp.conf');
 
 gulp.task('webpack:dev', done => {
+  process.env.NODE_ENV = 'development';
   webpackWrapper(false, webpackConf, done);
 });
 
