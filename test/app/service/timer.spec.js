@@ -3,7 +3,7 @@ import * as TestUtils from '../../testUtils';
 
 describe('Timer', () => {
   describe('start method', () => {
-    it('should start triggering "change" events with current timestamp', function (done) {
+    it('should start triggering "change" events with current timestamp', done => {
       Timer.start();
       Timer.bind('change', data => {
         expect(TestUtils.isDate(data)).toBeTruthy();
