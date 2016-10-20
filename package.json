@@ -79,7 +79,8 @@
     ],
     "rules": {
       "no-unused-vars": "warn",
-      "prefer-template": "warn"
+      "prefer-template": "warn",
+      "react/jsx-boolean-value": "off"
     }
   }
 }
