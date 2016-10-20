@@ -1,7 +1,7 @@
 {
   "name": "berlin-clock",
   "version": "1.0.0",
-  "description": "Simple Berlin Clock implementation in React.js",
+  "description": "Simple Berlin Clock implementation in React.js + Webpack + ES6 + Sass.",
   "dependencies": {
     "axios": "^0.9.1",
     "microevent-github": "^1.0.0",
