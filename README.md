@@ -3,6 +3,8 @@ _Simple Berlin Clock implementation in React.js + Webpack + ES6 + Sass._
 
 [![Build Status](https://travis-ci.org/adamfaryna/berlin-clock.svg?branch=master)](https://travis-ci.org/adamfaryna/berlin-clock)
 
+[Live demo](https://berlin-clock.herokuapp.com)
+
 ## Introduction
 
 This simple app demonstrates use of React.js + Webpack + ES6 + Sass + Gulp.js, Yeoman, BrowserSync and couple more.
