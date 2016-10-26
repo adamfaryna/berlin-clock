@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <footer>
         <a href="https://appdy.net">
-          &copy; Adam Faryna 2016
+          &copy; Appdy.net 2016
         </a>
       </footer>
     );

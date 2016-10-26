@@ -6,11 +6,7 @@ export default class Header extends Component {
 
     return (
       <header className="header">
-        <p className="title">
-          <a href="https://appdy.net" target="_blank">
-            Sample Header
-          </a>
-        </p>
+        <p className="title"></p>
         <p className="created-date">
           Created with passion on {currentDate}
         </p>
