@@ -8,10 +8,12 @@ const gulpConf = require('../conf/gulp.conf');
 
 gulp.task('webpack:dev', done => {
   process.env.NODE_ENV = 'development';
+  process.env.PORT = 5000;
   webpackWrapper(false, webpackConf, done);
 });
 
 gulp.task('webpack:watch', done => {
+  process.env.PORT = 5000;
   webpackWrapper(true, webpackConf, done);
 });
 
