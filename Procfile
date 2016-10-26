@@ -1,1 +1,1 @@
-web: ./node_modules/.bin/gulp serve:dist
+web: npm run serve:dist
